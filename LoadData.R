@@ -1,0 +1,6 @@
+#install.packages("readxl")
+library("readxl")
+print(getwd())
+sheet1 <- read_excel("ProblemCData.xlsx")
+sheet2 <- read_excel("ProblemCData.xlsx",sheet=2)
+View(sheet1)
