@@ -17,7 +17,7 @@ https://happygitwithr.com/rstudio-git-github.html
 install.packages("readxl")
 source('LoadData.R')
 ~~~~
-After installing readxl once only source the load file when you restart R
+You only need to install readxl once, afterwards just source the load file when you restart R
 
 #### Making Changes:
 1. open the git tab on the right side of Rstudio
@@ -25,5 +25,7 @@ After installing readxl once only source the load file when you restart R
 3. commit the file changes to the new branch
 4. push the changes
 5. if you're ready to change master, create a pull request on github
+
 https://happygitwithr.com/rstudio-git-github.html
+
 https://try.github.io/
